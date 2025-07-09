@@ -1,4 +1,4 @@
-number1 =10
+number1 = 10
 number2 = 5
 
 print(f'Addition of 10 and 5 is {number1 + number2}')
