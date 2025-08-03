@@ -3,7 +3,7 @@ def safe_divide(numerator,denominator):
     den = float(denominator)
     try:
        result = num / den
-       return result
+       print(f'The result of the division is {result}')
     except ZeroDivisionError:
         print("Error: Cannot divide by zero.")
     except ValueError:
